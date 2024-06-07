@@ -3,7 +3,7 @@ import React from 'react'
 const Navigation = () => {
   return (
     <div>
-        <nav class="navbar navbar-expand-lg bg-warninggi ">
+        <nav class="navbar navbar-expand-lg bg-warning ">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Book</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,16 +12,16 @@ const Navigation = () => {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Search</a>
+          <a class="nav-link" href="/search">Search</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Delete</a>
+          <a class="nav-link" href="/delete">Delete</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="">View All</a>
+          <a class="nav-link " href="/viewall">View All</a>
         </li>
       </ul>
     </div>
