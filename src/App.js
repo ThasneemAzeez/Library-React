@@ -3,6 +3,7 @@ import './App.css';
 import AddBook from './components/AddBook';
 import SearchBook from './components/SearchBook';
 import Delete from './components/Delete';
+import ViewAll from './components/ViewAll';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <AddBook/>
       <SearchBook/>
       <Delete/>
+      <ViewAll/>
+      
       
     </div>
   );
